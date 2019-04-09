@@ -1,0 +1,12 @@
+
+
+1) https://grpc.io/docs/quickstart/go.html
+    (install and put protoc.exe in PATH, include files in "google/protobuf" folder)
+
+2) https://github.com/grpc-ecosystem/grpc-gateway
+   (install)
+
+3) https://github.com/grpc-ecosystem/grpc-gateway/tree/master/third_party/googleapis/google/api
+   (download .proto files and put them in "google/api" folder)
+
+4) run go generate
